@@ -18,11 +18,17 @@ a {
     justify-content: center;
     width: 100vw;
     height: 100vh;
+    background-color: grey;
 }
 
 .heading {
     padding-bottom: 50px;
     align-self: center;
+}
+
+h4 {
+    align-self: center;
+    font-style: italic;
 }
 
 .login-section-wrapper {
@@ -31,11 +37,10 @@ a {
 }
 
 .login-section {
-    border: 1px solid Grey;
     padding: 10px 30px 10px 30px;
-    border-radius: 10px;
     height: auto;
     width: 300px;
+    background-color: white;
 }
 
 .form-section {
@@ -66,7 +71,10 @@ input {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 15px;
-    
+}
+
+#forgot-pwd:hover {
+    color: orange;
 }
 
 .login-button {
@@ -87,6 +95,10 @@ input {
     text-align: center;
     padding-top: 5px;
     font-size: 15px;
+}
+
+.signup-text:hover {
+    color: orange;
 }
 
 .or-footer {
